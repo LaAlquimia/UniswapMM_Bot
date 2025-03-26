@@ -1,0 +1,21 @@
+##### .gitignore #####
+# Ignorar archivos de wallets y claves privadas
+wallets/
+*.key
+*.pem
+*.p12
+*.json
+secrets.env
+
+# Ignorar archivos de configuración sensibles
+config.ini
+config.yaml
+
+# Ignorar archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar archivos de entorno
+.env
